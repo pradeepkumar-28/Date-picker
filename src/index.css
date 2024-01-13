@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif !important;
+}
+
+body {
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #edf2f8;
+  color: #2f2d2f;
+  height: 100%;
+}
+
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh !important;
+}
+
+.date-picker-container {
+  width: 450px;
+  height: 450px;
+  background-color: #f5f8ff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin: 0px 10px;
+
+}
+
+.Input_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.lable {
+  font-size: 18px;
+  margin-right: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.input {
+  max-width: 190px;
+  height: 30px;
+  width: 190px;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.dropdown {
+  height: 40px;
+  width: 200px;
+  font-size: 16px;
+}
+
+
+
+.button {
+  margin-top: 16px;
+  border-radius: 6px;
+  padding: 10px 22px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  background-color: #7d2ae8;
+}
+
+.List_container {
+  margin-top: 18px;
+  overflow-y: scroll;
+  height: 170px;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.weekendDates {
+  margin-top: 18px;
+}
+
+.dates {}
